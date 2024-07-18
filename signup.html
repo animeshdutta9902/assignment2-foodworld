@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - The Food World</title>
+    <link rel="stylesheet" href="css(signup).css">
+</head>
+<body>
+
+<header>
+    <h1>The Food World</h1>
+    <p>Create your account</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<div class="signup-container">
+    <form action="signup.php" method="post">
+        <h2>Sign Up</h2>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+
+</body>
+</html>
